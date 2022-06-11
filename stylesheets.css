@@ -106,3 +106,21 @@
     border: 5px solid #3882f6;    
     border-radius: 25px;
 }
+/* AFTER THIS IS THE quote */
+.quote {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    padding: 5em 20em;
+    background-color: #E5E7EB;
+}
+.quote p {
+    font-size: 36px;
+    font-weight: 100;
+    font-style: italic;
+    color: #1F2937;
+}
+.call {
+    height: 100px;
+}
