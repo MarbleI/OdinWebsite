@@ -159,4 +159,9 @@
 .footer {
     background-color: #1F2937;
     height: 5em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 20px;
 }
