@@ -1,0 +1,77 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+    font-family:'Roberto';
+}
+.Header {
+    background-color: #1F2937;
+}
+.Header .top {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Header .top div {
+    padding: 1em 10em;
+    display: flex;
+    gap: 10px;
+}
+.Header .top div p {
+    color: #f9faf8;
+    font-size: 24px;
+}
+.Header .top div img {
+    height: 24px;
+    width: auto;
+}
+.Header .top ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px 10em;
+    flex: 1;
+    gap: 1em;
+}
+.Header .top ul a {
+    font-size: 18px;
+    color: #E5E7EB;
+    text-decoration: none;
+}
+.Header .bottom {
+    display: flex;
+    align-items: center;
+    padding: 5em 10em;
+}
+.Header .bottom .left-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 10px;
+}
+.Header .bottom .left-text h1 {
+    color: #f9faf8;
+    font-weight: bolder;
+    font-size: 48px;
+    width: 65%;
+}
+.Header .bottom .left-text p {
+    color: #E5E7EB;
+    font-size: 18px;
+    width: 65%;
+}
+.Header .bottom .left-text a {
+    background-color: #2fa1c4;
+    border: none;
+    color: white;
+    padding: 10px 30px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 25px;
+}
+.Header .bottom img{
+    height: 250px;
+    width: 650px;
+}
