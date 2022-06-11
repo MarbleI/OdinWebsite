@@ -121,6 +121,42 @@
     font-style: italic;
     color: #1F2937;
 }
-.call {
-    height: 100px;
+.bodycall {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 21em;
+}
+.bodycall .call {
+    background-color: #3882f6;
+    color: white;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1em;
+    height: 40%;
+    width: 70%;
+}
+.bodycall .call .text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 65%;
+    gap: 5px;
+}
+.bodycall a {
+    background-color: #3882f6;
+    color: white;
+    padding: 10px 30px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    border: 1px solid white;
+}
+/* Footer after this */
+.footer {
+    background-color: #1F2937;
+    height: 5em;
 }
